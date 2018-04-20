@@ -7,7 +7,8 @@
 - ## Naming Conventions
 
      1. A method/function should always start with a small letter.
-        ```javscript
+
+        ```javascript
         // bad example
         function MyFunction() {...}
 
