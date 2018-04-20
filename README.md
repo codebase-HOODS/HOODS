@@ -3,6 +3,7 @@
 
 -All development should happen in "dev" branch  and later should be pushed to master branch.
 
+
 - ## Naming Conventions
 
      1. A method/function should always start with a small letter.
@@ -43,4 +44,6 @@
         ```
 
 
+
 [Additional information on naming convention](http://www.j-io.org/Javascript-Naming_Conventions/#naming-conventions)
+
