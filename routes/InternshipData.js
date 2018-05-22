@@ -11,7 +11,7 @@ router.get('/', function(req, res){
 	InternshipsDataController.RetrievePost()
 	.then(function(data){
 		res.send({
-			body:data
+			body:data[0]
 		});
 	});
 });
