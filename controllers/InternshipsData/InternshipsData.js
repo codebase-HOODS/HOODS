@@ -2,19 +2,21 @@ import {
     InternshipsData as InternshipsDataModel
 } from './../../models';
 
-var RetrievePost = function(data) {
+var RetrievePost = function() {
     var promise = new Promise(function(resolve, reject) {
-        var internships = new InternshipsDataModel(data);
-        post.save();        
-        resolve(post);
+        // var internships = new InternshipsDataModel(data);
+        // post.save();        
+        // resolve(post);
+        var res = InternshipsDataModel.find();
+        resolve(res);
     });
     return promise;
 }
 
-var PostData = {
-	addNewPost
+var InternshipsData = {
+	RetrievePost
 };
 
 export {
-	PostData
+	InternshipsData
 };
